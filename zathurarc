@@ -1,0 +1,71 @@
+# <<< BEGIN ZATHURA >>>
+
+# Settings
+set window-title-basename       "true"
+set selection-clipboard         "clipboard"
+
+# Performance
+set pages-per-row               1
+#set scroll-page-aware          "true"
+set scroll-step                 150
+#set scroll-hstep               -1
+set scroll-wrap                 "false"
+
+# Render
+set render-loading              "true"
+set render-loading-fg           rgba(40,42,54,1)
+set render-loading-bg           rgba(248,248,242,1)
+
+# Zoom
+#set adjust-open                "width"
+#set zoom-min                   10
+#set zoom-max                   1000
+#set zoom-step                  10
+
+# Recolor settings
+set recolor true
+set recolor-lightcolor          rgba(40,42,54,1)
+set recolor-darkcolor           rgba(248,248,242,1)
+set recolor-keephue             "false"
+set recolor-reverse-video       "false"
+
+# < Dracula theme >
+set notification-error-bg       rgba(255,85,85,1)
+set notification-error-fg       rgba(248,248,242,1)
+set notification-warning-bg     rgba(255,184,108,1)
+set notification-warning-fg     rgba(68,71,90,1)
+set notification-bg             rgba(40,42,54,1)
+set notification-fg             rgba(248,248,242,1)
+
+set completion-bg               rgba(40,42,54,1)
+set completion-fg               rgba(98,114,164,1)
+set completion-group-bg         rgba(40,42,54,1)
+set completion-group-fg         rgba(98,114,164,1)
+set completion-highlight-bg     rgba(68,71,90,1)
+set completion-highlight-fg     rgba(248,248,242,1)
+
+set index-bg                    rgba(40,42,54,1)
+set index-fg                    rgba(248,248,242,1)
+set index-active-bg             rgba(68,71,90,1)
+set index-active-fg             rgba(248,248,242,1)
+
+set inputbar-bg                 rgba(40,42,54,1)
+set inputbar-fg                 rgba(248,248,242,1)
+set statusbar-bg                rgba(40,42,54,1)
+set statusbar-fg                rgba(248,248,242,1)
+
+set highlight-color             rgba(255,184,108,0.5)
+set highlight-active-color      rgba(255,121,198,0.5)
+
+# < UNUSED >
+#set default-bg                  rgba(40,42,54,1)
+#set default-fg                  rgba(248,248,242,1)
+
+# Additional 
+set statusbar-h-padding         9
+set statusbar-v-padding         9
+set font                        "monospace 14"
+set page-padding                1
+set vertical-center             "true"
+
+# <<< END ZATHURA >>>
